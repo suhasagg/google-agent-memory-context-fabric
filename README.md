@@ -1196,17 +1196,7 @@ The included Kubernetes files are starters, not a claim of a complete production
 [ ] hardened Kubernetes/Helm
 ```
 
-## 204. Current executable boundary
-
-The included implementation is deliberately honest about its boundary.
-
-Implemented in the runnable reference: FastAPI API, PostgreSQL memory/revision/provenance/ACL/share/audit/outbox models, transactional create path, tenant/classification/scope checks, policy-before-ranking retrieval, deterministic local embedding, conflict candidate detection, TTL assignment, forget/tombstone, cross-agent working-memory guardrail, Docker Compose and Kubernetes starters.
-
-Designed and documented for production but not falsely represented as fully wired: Google-managed Memory Bank APIs, Qdrant/Neo4j production adapters, Kafka publisher/consumers, model-based extraction/consolidation, Memory Profile service, OIDC/workload identity, enterprise DLP, complete projection purge/reconciliation, OTel and hardened Helm.
-
-## 205. Principal-level system-design review
-
-A Principal/Staff engineer should be able to defend:
+## 204. Principal-level system-design review
 
 ```text
 Why SQL is authoritative and vector/graph are projections.
@@ -1223,7 +1213,7 @@ How multi-region profile conflicts are prevented.
 How derived indexes recover from disaster.
 ```
 
-## 206. Final invariant
+## 205. Final invariant
 
 ```text
 Authenticated Identity -> establishes who is acting
